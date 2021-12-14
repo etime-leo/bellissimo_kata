@@ -9,12 +9,12 @@ public class Tamagotchi {
         return hungriness;
     }
 
+    public int getFullness() {
+        return fullness;
+    }
+
     public void feed() {
         hungriness--;
         fullness++;
-    }
-
-    public int getFullness() {
-        return fullness;
     }
 }

@@ -19,8 +19,10 @@ public class TamagotchiTest {
     @Test
     void feeding_Tamagotchi_should_increase_is_fullness() {
         Tamagotchi tamagotchi = new Tamagotchi();
+
         int initialFullness = tamagotchi.getFullness();
         tamagotchi.feed();
+
         assertThat(tamagotchi.getFullness()).isEqualTo(initialFullness + 1);
     }
 }
