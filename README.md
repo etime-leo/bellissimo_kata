@@ -9,3 +9,11 @@ Includes:
 * AssertJ
 * Apache Commons Lang 3.*
 * A simple script to perform a git handover for a mob session
+
+## kata tamagochi
+
+### feeding feature
+* Given I have a Tamagotchi
+When I feed it
+Then it's hungriness is decreased
+And it's fullness is increased
