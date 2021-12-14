@@ -2,19 +2,18 @@ package com.kata;
 
 public class Tamagotchi {
 
-    private int hungriness = 50;
-    private int fullness = 50;
+    private final Feed feed = new Feed();
 
     public int getHungriness() {
-        return hungriness;
+        return feed.getHungriness();
     }
 
     public int getFullness() {
-        return fullness;
+        return feed.getFullness();
     }
 
     public void feed() {
-        hungriness--;
-        fullness++;
+        feed.decreaseHungriness();
+        feed.increaseFullness();
     }
 }

@@ -25,4 +25,6 @@ public class TamagotchiTest {
 
         assertThat(tamagotchi.getFullness()).isEqualTo(initialFullness + 1);
     }
+
+
 }

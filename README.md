@@ -17,3 +17,9 @@ Includes:
 When I feed it
 Then it's hungriness is decreased
 And it's fullness is increased
+  
+### playing feature
+* Given I have a Tamagotchi
+When I play with it
+Then it's happiness is increased
+And it's tiredness is increased
